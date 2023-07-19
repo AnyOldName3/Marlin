@@ -254,7 +254,7 @@
 #elif MB(GT2560_REV_A)
   #include "mega/pins_GT2560_REV_A.h"           // ATmega2560, ATmega1280                 env:mega2560 env:mega1280
 #elif MB(GT2560_REV_A_PLUS)
-  #include "mega/pins_GT2560_REV_A_PLUS.h"      // ATmega2560, ATmega1280                 env:mega2560 env:mega1280
+  #include "mega/pins_GT2560_REV_A_PLUS.h"      // ATmega2560, ATmega1280                 env:mega2560ext env:mega2560 env:mega1280
 #elif MB(GT2560_V3)
   #include "mega/pins_GT2560_V3.h"              // ATmega2560                             env:mega2560
 #elif MB(GT2560_REV_B)
